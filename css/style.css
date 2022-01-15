@@ -1,0 +1,59 @@
+img{
+    height: 200px;
+    width:auto;
+}
+img.dog{
+    border: 3px solid blue;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+img.anime{
+    border: 3px solid orange;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+img.anime{
+    padding: 10px;
+}
+
+
+nav li{
+    padding: 20px;
+    width: 30%;
+    border:2px solid blue;
+    border-radius:3ch;
+    background-color: burlywood;
+    display:inline-block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.active{
+    background-color: darkgoldenrod;
+    font-weight: bolder;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    font-size: 25px;
+    color: firebrick;
+}
+li a:visited:hover{
+    color:maroon;
+}
+
+div.seperator{
+    border: 2px dotted orange;
+    margin: 1px;
+}
+footer{
+    position: fixed;
+    bottom:2px;
+    float: left;
+}
