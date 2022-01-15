@@ -22,17 +22,22 @@ img.anime{
 nav li{
     padding: 20px;
     width: 30%;
-    border:2px solid blue;
+    border:2px solid floralwhite;
     border-radius:3ch;
-    background-color: burlywood;
+    background-color:sienna;
     display:inline-block;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    
+}
+nav li a{
+    color:white;
 }
 
+
 .active{
-    background-color: darkgoldenrod;
+    background-color: darkslategray;
     font-weight: bolder;
 }
 
@@ -53,7 +58,7 @@ div.seperator{
     margin: 1px;
 }
 footer{
-    position: fixed;
+    position:relative;
     bottom:2px;
-    float: left;
+    border:1px solid salmon;
 }
