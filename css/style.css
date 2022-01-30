@@ -1,15 +1,68 @@
+body{
+    background-image:url("../img/background.jpg");
+    background-size:500px 100px;
+    color:azure;
+    
+}
+
+a:visited{
+    color:snow;
+    font-size: 20px;
+}
+
+
+
+.info{
+    text-align: center;
+}
+h1{
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.container{
+    /* position:fixed; */
+    display: flex;
+    justify-content: center;
+}
+.left-element{
+    display: inline-block;
+    width:400px;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+.right-element{
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+}
+.right-element img{
+    border-radius:200px;
+    border:2px salmon solid;
+    width: 250px;
+    height: auto;
+}
+
+h2{
+    font-size:30px;
+    font-family: 'Space Mono',monospace;
+}
+
 img{
     height: 200px;
     width:auto;
 }
 img.dog{
-    border: 3px solid blue;
+    border: 3px solid #0000ff;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
 }
 img.anime{
-    border: 3px solid orange;
+    border: 3px solid #ffa500;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
@@ -18,23 +71,29 @@ img.anime{
     padding: 10px;
 }
 
+nav{
+    text-align:right;
+    
+}
+
 
 nav li{
-    padding: 20px;
-    width: 25%;
-    border:2px solid floralwhite;
-    border-radius:3ch;
-    background-color:sienna;
+    font-family: 'Space Mono', monospace;
+    padding: 10px;
+    width: 15%;
+    /* background-color:sienna; */
     display:inline-block;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    
+    border:none;
 }
 nav li a{
     color:white;
 }
 
+p{
+    font-family: 'Space Mono',monospace;
+}
 
 .active{
     background-color: darkslategray;
@@ -46,7 +105,6 @@ li a{
 }
 
 li a:hover{
-    font-size: 25px;
     color: firebrick;
 }
 li a:visited:hover{
